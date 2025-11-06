@@ -3,75 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSES</title>
+    <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div id="nav">
-            <div id="logo">
+    <main>
+        <div class="msg-container hide">
+            <p id="msg">Winner</p>
+            <button id="new-btn">New Game</button>
+        </div>
 
+        <h1>Tic Tac Toe</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
             </div>
-            <div id="login">
-                <a id="link" href="form.html">Login - </a>
-                <i class="fa-solid fa-circle-half-stroke"></i>
-            </div>
         </div>
-    </header>
-    <br>
-    <div id="Title">
-        <p id="para">Code Submission Evaluation System</p>
-    </div>
-    
-    <div id="homebar">
-        <div id="home" class="flexbox">
-            <a class="menu rborder" href="index.html">HOME&nbsp&nbsp</a>
-        </div>
-        <div id="courses" class="flexbox">
-            <a class="menu rborder" href="#">COURSES&nbsp&nbsp</a>
-        </div>
-        <div id="contests" class="flexbox">
-            <a class="menu rborder" href="#">CONTESTS&nbsp&nbsp</a>
-        </div>
-        <div id="statistics" class="flexbox">
-            <a class="menu rborder" href="#">STATISTICS&nbsp&nbsp</a>
-        </div>
-        <div id="about" class="flexbox">
-            <a class="menu" href="#">ABOUT</a>
-        </div>
-        <hr>
-    </div>
-    <div id="main">
-        <div class="boxcom" id="box1">
-            <p class="heading">CSES Problem Set</p>
-            <p>The CSES Problem Set contains a collection of algorithm programming practice problems. You can access the problems <a href="#">here</a>.</p>
-        </div>
-        <div class="boxcom" id="box2">
-            <p class="heading">Datatähti-valmennus</p>
-            <p>Kokoelma harjoitustehtäviä, joiden avulla voit harjoitella Datatähteä ja muita kilpailuja varten. Pääset tehtäviin <a href="#">tästä</a>.</p>
-        </div>
-        <div class="boxcom" id="box3">
-            <p class="heading">CSES Blog</p>
-            <ul>
-                <li>
-                    <a href="#">CSES Problem Set May 2025 Update</a>
-                </li>
-            </ul>
-            <p class="heading">CSES for Teachers</p>
-            <p>Using this new feature, teachers can create their own courses and track their students' progress.</p>
-            <ul>
-                <li>
-                    <a href="#">CSES for Teachers</a>
-                </li>
-            </ul>
-        </div>
-        <div class="boxcom" id="box4">
-            <p class="heading">BOI Contest Collection</p>
-            <p>This collection contains all Baltic Olympiad in Informatics contests from 2005 to 2021. You can access the contests <a href="#">here</a>.</p>
-            <p class="heading">CEOI Contest Collection</p>
-            <p>This collection contains all Central European Olympiad in Informatics contests from 2005 to 2021. You can access the contests <a href="#">here</a>.</p>
-        </div>
-    </div>
+        <button id="reset-btn">Reset Game</button>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
