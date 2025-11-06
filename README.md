@@ -1,3 +1,2 @@
 # Codex
-I have completed one ps of web development.
-I have also made a Tic Tac Toe game.
+One PS of web development and a tic tac toe game.
