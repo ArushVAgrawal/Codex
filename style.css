@@ -1,0 +1,129 @@
+#nav{
+    background-color: #212525;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#logo{
+    height: 50px;
+    width: 140px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+#login {
+    height: 50 px;
+    width: 90px;
+    font-size: 20px;
+    color: white;
+}
+#link{
+    color:white;
+}
+#Title{
+    
+    background-color: white;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 0px;
+    
+    
+}
+#para{
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left: 225px;
+    background-color: white;
+    font-weight: 600;
+    
+}
+#homebar{
+    background-color: white;
+    height: 65px;
+    width:615px;
+    border: 50px;
+    margin-left:225px;
+    font-size: 25px;
+    
+    
+}
+.flexbox{
+    display: inline-block
+    
+    
+}
+#home{
+    &:hover{
+        background-color: rgb(216, 206, 206);
+    }
+   
+    
+}
+#courses{
+    &:hover{
+        background-color: rgb(216, 206, 206);
+    }
+}
+#contests{
+    &:hover{
+        background-color: rgb(216, 206, 206);
+    }
+}
+#statistics{
+    &:hover{
+        background-color: rgb(216, 206, 206);
+    }
+}
+#about{
+    &:hover{
+        background-color: rgb(216, 206, 206);
+    }
+}
+.menu{
+    color: rgb(42, 42, 130);
+    text-decoration: none;
+
+}
+.rborder{
+    border-right: 1px solid rgb(42,42,130);
+}
+#main{
+    display: flex;
+    height: 670px;
+    /* width: 874px; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxcom{
+    height: 300px;
+    width: 480px;
+    display: inline-block;
+    /* flex-wrap: wrap;  */
+}
+p{
+    display: inline-block;
+}
+.heading{
+    font-weight: 600;
+    font-size: larger;
+}
+#box1{
+    background-color: rgb(17, 200, 39,0.5);
+    margin-right: 12px;
+    padding-left: 15px;
+}
+#box2{
+    background-color: rgba(9, 101, 228, 0.5);
+    padding-left: 15px;
+}
+#box3{
+    background-color: rgba(245, 181, 3, 0.5);
+    margin-right: 12px;
+    padding-left: 15px;
+}
+#box4{
+    background-color: rgba(248, 18, 5, 0.5);
+    padding-left: 15px;
+}
